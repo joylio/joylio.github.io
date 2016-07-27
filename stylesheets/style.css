@@ -1,15 +1,46 @@
-.header
+html < body
 {
-  position: fixed;
-  display: inline-block;
-  width: 200px;
-  box-sizing: border-box;
-  padding: 24px 0;
-  z-index: 1;
-  flex-shrink: 0;
+  background-color: #FAFAFA;
 }
 
-.nav_category
+header
 {
+  position: fixed;
   display: block;
+  width: 375px;
+  min-height: 100%;
+  padding: 24px 0;
+  box-sizing: border-box;
+  float: left;
+  z-index: 1;
+  flex-shrink: 0;
+  background-color: black;
+}
+
+header a img
+{
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+#social-icons
+{
+  display: inline;
+}
+
+.nav-component
+{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 16px;
+  padding-left: 72px;
+  min-height: 48px;
+  line-height: 48px;
+}
+
+#about
+{
+  
 }
