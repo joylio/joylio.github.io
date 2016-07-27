@@ -4,27 +4,24 @@ html < body
   background-color: #FAFAFA;
 }
 
+a
+{
+  color: blue;
+}
+
 header
 {
   position: fixed;
   display: block;
   width: 15em;
   height: 100%;
-  min-height: 100%;
-  padding: 2em;
+  padding-left: 5em;
   top: 0;
   left: 0;
   border-right: 1px #eee solid;
   float: left;
   overflow-y: auto;
   background-color: black;
-}
-
-header a img
-{
-  position: relative;
-  max-width: 80%;
-  max-height: 80%;
 }
 
 #social-icons
@@ -34,30 +31,35 @@ header a img
 
 .nav-component
 {
-  position: relative;
   display: block;
-  text-align: center;
   margin: 16px;
   padding-left: 72px;
   min-height: 48px;
-  line-height: 48px;
 }
 
 #content
 {
-  float: left;
-  margin-left: 20em;
-  width: 100%;
+  margin-left: 25em;
 }
 
 /* About page */
 #about
 {
-  line-height: 32px;
+  display: inline-block;
+  padding: 15% 10%;
 }
 
-#about img
+#about > h4
 {
-  max-height: 50%;
-  max-width: 50%;
+  line-height: 1.5em;
+}
+
+footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  text-align: center;
 }
