@@ -9,6 +9,11 @@ a
   color: blue;
 }
 
+h4
+{
+  line-height: 1.5em;
+}
+
 header
 {
   position: fixed;
@@ -42,18 +47,14 @@ header
   margin-left: 25em;
 }
 
-/* About page */
-#about
+/* about and contact pages */
+#about, #contact
 {
   display: inline-block;
   padding: 15% 10%;
 }
 
-#about > h4
-{
-  line-height: 1.5em;
-}
-
+/* footer */
 footer
 {
   position: fixed;

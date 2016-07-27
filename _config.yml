@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /joylio.github.io
 exclude: ['README.md']
+permalink: pretty
