@@ -1,24 +1,20 @@
 /* default common section */
-html < body
-{
+html < body {
   background-color: #FAFAFA;
 }
 
-a
-{
-  color: blue;
+a {
+  color: violet;
 }
 
-h4
-{
+h4 {
   line-height: 1.5em;
 }
 
-header
-{
+header {
   position: fixed;
   display: block;
-  width: 15em;
+  width: 17.5em;
   height: 100%;
   padding-left: 5em;
   top: 0;
@@ -29,38 +25,60 @@ header
   background-color: black;
 }
 
-#social-icons
-{
-  display: inline;
-}
-
-.nav-component
-{
-  display: block;
-  margin: 16px;
-  padding-left: 72px;
-  min-height: 48px;
-}
-
-#content
-{
-  margin-left: 25em;
-}
-
-/* about and contact pages */
-#about, #contact
-{
+#social-icons {
   display: inline-block;
-  padding: 15% 10%;
+  padding-bottom: 2em;
 }
+
+.nav-component {
+  display: block;
+  padding-left: 72px;
+}
+
+#content {
+  margin: 5em 5em 5em 25em;
+}
+
+
+/* about page */
+#about {
+  display: inline-block;
+  padding: 10%;
+}
+
+
+/* portfolio page */
+#portfolio {
+  padding: 5% 8%;
+}
+.demo-card-wide.mdl-card {
+  width: 512px;
+  margin: 0 6em 5em .5em;
+  display: inline-block;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../images/mushroom.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.mdl-card__title-text {
+  color: black;
+}
+
+
+/* blog page */
+#blog {
+
+}
+
 
 /* footer */
-footer
-{
+footer {
   position: fixed;
-  left: 0;
+  left: 4em;
   bottom: 0;
-  height: 70px;
-  width: 100%;
-  text-align: center;
+  color: white;
 }

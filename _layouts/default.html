@@ -9,12 +9,12 @@
 	<!-- Mobile-friendly view -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Jiayu Liu</title>
+	<title>{% if page.title %}{{page.title}}{% endif %} | Jiayu Liu</title>
 
 	<!-- Google MDL stylesheets CDN host -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
-	<!-- Customized CSS -->
+	<!-- Customized CSS, override css above-->
 	<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/style.css">
 
 	<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
@@ -23,34 +23,25 @@
 <body>
 	<header>
 
-		<h3 style="color:white">Jiayu Liu</h3>
-		<h6 style="color:white">code, music, dance</h6>
+		<h2 style="color:white">Jiayu Liu</h2>
+		<h6 style="color:white"><i>Game Programmer<br>Sound Designer</i></h6>
 
 		<div id="social-icons">
 			<a href="http://github.com/joylio" aria-hidden="true" title="Github">
-				<img src="{{site.baseurl}}/images/github-box.png" alt="Github">
+				<img src="{{site.baseurl}}/images/github-circle.png" alt="Github">
 			</a>
-		</div>
-		<div id="social-icons">
 			<a href="https://soundcloud.com/joylio" aria-hidden="true" title="Soundcloud">
 				<img src="{{site.baseurl}}/images/soundcloud.png" alt="Soundcloud">
 			</a>
 		</div>
 		
-		<h6>
-			<a href="{{site.baseurl}}/index" class="nav_component">About</a>
-		</h6>
-		<h6>
-			<a href="" class="nav_component">Blog</a>
-		</h6>
-		<h6>
-			<a href="" class="nav_component">Portfolio</a>
-		</h6>
-		<h6>
-			<a href="{{site.baseurl}}/contact" class="nav_component">Contact</a>
-		</h6>
+		<h6><a href="{{site.baseurl}}/index" class="nav_component">About</a></h6>
+		<h6><a href="{{site.baseurl}}/blog" class="nav_component">Blog</a></h6>
+		<h6><a href="{{site.baseurl}}/portfolio" class="nav_component">Portfolio</a></h6>
+		<h6><a href="{{site.baseurl}}/fun" class="nav_component">Fun!</a></h6>
 
 	</header>
+
 
 	<main id="content">
 
@@ -58,9 +49,11 @@
 
 	</main>
 
+
 	<footer>
 		<h6>© 2016 by Jiayu Liu</h6>
 	</footer>
+
 
 </body>
 
