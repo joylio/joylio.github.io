@@ -35,8 +35,14 @@ header {
   padding-left: 72px;
 }
 
+.current {
+  background-color: green;
+  color: #fff;
+  text-decoration: line-through;
+}
+
 #content {
-  margin: 5em 5em 5em 25em;
+  padding: 5em 5em 0 25em;
 }
 
 
@@ -78,7 +84,7 @@ header {
 /* footer */
 footer {
   position: fixed;
-  left: 4em;
+  left: 5em;
   bottom: 0;
   color: white;
 }

@@ -35,10 +35,12 @@
 			</a>
 		</div>
 		
-		<h6><a href="{{site.baseurl}}/index" class="nav_component">About</a></h6>
-		<h6><a href="{{site.baseurl}}/blog" class="nav_component">Blog</a></h6>
-		<h6><a href="{{site.baseurl}}/portfolio" class="nav_component">Portfolio</a></h6>
-		<h6><a href="{{site.baseurl}}/fun" class="nav_component">Fun!</a></h6>
+		<nav>
+		<h6><a href="{{site.baseurl}}/index" class="nav_component {% if page.title == 'About'%}current{% endif %}">About</a></h6>
+			<h6><a href="{{site.baseurl}}/blog" class="nav_component {% if page.title == 'Blog'%}current{% endif %}">Blog</a></h6>
+			<h6><a href="{{site.baseurl}}/portfolio" class="nav_component {% if page.title == 'Portfolio'%}current{% endif %}">Portfolio</a></h6>
+			<h6><a href="{{site.baseurl}}/fun" class="nav_component {% if page.title == 'Fun'%}current{% endif %}">Fun!</a></h6>
+		</nav>
 
 	</header>
 
