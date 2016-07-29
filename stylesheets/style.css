@@ -1,10 +1,15 @@
 /* default common section */
 html < body {
-  background-color: #FAFAFA;
+  background-color: #515151;
 }
 
 a {
   color: violet;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  background-color: green;
+  color: #fff;
 }
 
 h4 {
@@ -42,20 +47,28 @@ header {
 }
 
 #content {
-  padding: 5em 5em 0 25em;
+  padding: 0 5em 0 25em;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  left: 5em;
+  bottom: 0;
+  color: white;
 }
 
 
 /* about page */
 #about {
   display: inline-block;
-  padding: 10%;
+  padding: 10% 15%;
 }
 
 
 /* portfolio page */
-#portfolio {
-  padding: 5% 8%;
+.portfolio {
+  margin: 8%;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
@@ -75,16 +88,47 @@ header {
 }
 
 
+/* portfolio content page */
+#back {
+  float: left;
+}
+#pfsection {
+  padding: 2% 0;
+}
+#pftitle {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+/* individual portfolio page */
+.gallery {
+  margin: 0 15% 0 0;
+  width: auto;
+  height: 400px;
+  border: 2px black solid;
+}
+.image {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: 10px;
+}
+.gallery .image img {
+  width: 300px;
+  height: 400px;
+}
+iframe {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 200px;
+  height: 200px;
+}
+
+
 /* blog page */
 #blog {
 
 }
 
 
-/* footer */
-footer {
-  position: fixed;
-  left: 5em;
-  bottom: 0;
-  color: white;
-}

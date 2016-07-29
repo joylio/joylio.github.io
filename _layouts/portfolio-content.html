@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<h1 style="text-align:center">{{page.title}}</h1>
-<h2 style="text-align:center">
-	{{content}}
-</h2>
+<div class="portfolio">
+	<div id="back">
+		<a href="/portfolio"><img src="{{site.baseurl}}/images/keyboard-backspace.png"></a>
+	</div>
+
+	<article id="pfsection">
+		<h1 id="pftitle">{{page.title}}</h1>
+
+		<!-- article goes here -->
+		<div id="pfcontent">
+			{{content}}
+		</div>
+	</article>
+</div>
