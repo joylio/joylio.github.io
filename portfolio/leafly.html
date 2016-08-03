@@ -18,6 +18,7 @@ title: Leafly
 
 <iframe src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
 
-<div class="text">
-	{% include leafly.md %}
+<div class="text" markdown="1">
+	{% capture my_include %}{% include leafly_article.md %}{% endcapture %}
+	{{ my_include | markdownify }}
 </div>
