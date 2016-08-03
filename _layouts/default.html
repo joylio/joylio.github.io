@@ -37,7 +37,7 @@
 		
 		<nav>
 			<h6><a href="/index" class="nav_component {% if page.title == 'About'%}current{% endif %}">About</a></h6>
-			<h6><a href="/blog" class="nav_component {% if page.url contains 'blog' %}current{% endif %}">Blog</a></h6>
+			<h6><a href="/blog" class="nav_component {% if page.title == 'Blog' or page.url contains 'blog' %}current{% endif %}">Blog</a></h6>
 			<h6><a href="/portfolio" class="nav_component {% if page.url contains 'portfolio' %}current{% endif %}">Portfolio</a></h6>
 			<h6><a href="/fun" class="nav_component {% if page.title == 'Fun'%}current{% endif %}">Fun!</a></h6>
 		</nav>

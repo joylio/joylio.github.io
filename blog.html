@@ -6,8 +6,8 @@ title: Blog
 <section id="blog">
 	<ul>
 		{% for post in site.posts %}
-		<li>
-			<a href="/blog{{ post.url }}" class="blog-title">{{ post.title }}</a>
+		<li id="blog-list">
+			<a href="{{ post.url }}" class="blog-title">{{ post.title }}</a>
 				<br>
 				<h5 class="blog-meta">{{ post.meta }}</h5>
 		</li>

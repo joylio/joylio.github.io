@@ -6,7 +6,7 @@ kramdown:
   highlighter: rouge
 highlight: true
 baseurl: /joylio.github.io
-exclude: ['README.md', 'CNAME', .'.gitignore', 'LICENSE']
+exclude: ['README.md']
 lsi: false
 
 # Build Settings
