@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<div class="portfolio">
+<div id="portfolio-content">
 	<div id="back">
 		<a href="/portfolio"><img src="{{site.baseurl}}/images/keyboard-backspace.png"></a>
 	</div>
 
 	<article id="pfsection">
-		<h1 id="pftitle">{{page.title}}</h1>
+		<h1 class="title">{{page.title}}</h1>
 
 		<!-- article goes here -->
-		<div id="pfcontent">
+		<div>
 			{{content}}
 		</div>
 	</article>

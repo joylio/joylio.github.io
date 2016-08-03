@@ -4,11 +4,11 @@ html < body {
 }
 
 a {
-  color: violet;
+  color: grey;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  background-color: green;
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .a-title:hover, .blog-title:hover{
+  background-color: #ee2118;
   color: #fff;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 .current {
-  background-color: green;
+  background-color: #ee2118;
   color: #fff;
   text-decoration: line-through;
 }
@@ -67,7 +67,7 @@ footer {
 
 
 /* portfolio page */
-.portfolio {
+#portfolio {
   margin: 8%;
 }
 .demo-card-wide.mdl-card {
@@ -89,13 +89,17 @@ footer {
 
 
 /* portfolio content page */
+#portfolio-content {
+  margin: 2% 8%;
+}
 #back {
   float: left;
+  position: fixed;
 }
 #pfsection {
   padding: 2% 0;
 }
-#pftitle {
+.title {
   text-align: center;
   text-decoration: underline;
 }
@@ -104,15 +108,17 @@ footer {
 /* individual portfolio page */
 .subtitle {
   text-align: center;
+  font-style: italic;
 }
 .gallery {
   width: auto;
   height: 400px;
   margin: 50px 0;
   border: 2px black solid;
+  overflow: hidden;
 }
 .image {
-  display: inline;
+  display: inline-block;
   padding: 0 55px;
 }
 /* set image size */
@@ -130,7 +136,18 @@ iframe {
 
 /* blog page */
 #blog {
-
+  margin: 8%;
+}
+.blog-title {
+  font-size: 30px;
+  line-height: 100%;
+}
+.blog-meta {
+  line-height: 30%;
 }
 
+/* blog content page */
+#blog-content {
+  margin: 5% 8%;
+}
 
