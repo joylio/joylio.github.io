@@ -1,8 +1,13 @@
+# Config Settings
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rouge
+  highlighter: rouge
+highlight: true
 baseurl: /joylio.github.io
-exclude: ['README.md']
+exclude: [README.md, CNAME, .gitignore, LICENSE]
+lsi: false
+
+# Build Settings
 permalink: pretty

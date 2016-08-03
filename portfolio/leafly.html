@@ -3,7 +3,7 @@ layout: portfolio-content
 title: Leafly
 ---
 
-<h6 style="text-align:center">
+<h6 class="subtitle">
 	- a game built with Google Cardboard and Unity VR.
 </h6>
 
@@ -12,13 +12,20 @@ title: Leafly
 		<img src="{{site.baseurl}}/images/portrait.jpg">
 	</div>
 	<div class="image">
-		<img src="{{site.baseurl}}/images/mushroom.png">
+		<img src="{{site.baseurl}}/images/portrait.jpg">
+	</div>
+	<div class="image">
+		<img src="{{site.baseurl}}/images/portrait.jpg">
 	</div>
 </div>
+</div>
 
+<!--
 <iframe src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+-->
 
-<div class="text" markdown="1">
+
+<div class="textbody">
 	{% capture my_include %}{% include leafly_article.md %}{% endcapture %}
 	{{ my_include | markdownify }}
 </div>
