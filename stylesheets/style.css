@@ -1,51 +1,65 @@
 /* default common section */
 html < body {
-  background-color: #515151;
+  background-color: #ededed;
 }
-
 a {
   color: grey;
 }
-
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .a-title:hover, .blog-title:hover{
-  background-color: #ee2118;
+  background-color: #e54444;
   color: #fff;
 }
-
 h4 {
   line-height: 1.5em;
 }
-
 header {
   position: fixed;
   display: block;
   width: 17.5em;
   height: 100%;
-  padding-left: 5em;
+  padding: 0 3.8em;
   top: 0;
   left: 0;
   border-right: 1px #eee solid;
   float: left;
   overflow-y: auto;
-  background-color: black;
 }
-
+#namecard {
+  margin-top: 8em;
+  margin-bottom: .5em;
+}
+#name {
+  font-family: 'Slabo 27px', serif;
+  font-size: 61px;
+  line-height: 100%;
+  text-align: center;
+}
+#work {
+  margin-top: .7em;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  line-height: 110%;
+  text-align: center;
+}
 #social-icons {
-  display: inline-block;
-  padding-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 6em;
+  text-align: center;
 }
-
-.nav-component {
-  display: block;
-  padding-left: 72px;
+.icon {
+  margin-right: .5em;
 }
-
+nav {
+  text-align: center;
+}
+.nav_component {
+  font-size: 20px;
+}
 .current {
-  background-color: #ee2118;
+  background-color: #e54444;
   color: #fff;
   text-decoration: line-through;
 }
-
 #content {
   padding: 0 5em 0 25em;
 }
@@ -53,9 +67,9 @@ header {
 /* footer */
 footer {
   position: fixed;
-  left: 5em;
-  bottom: 0;
-  color: white;
+  font-size: 15px;
+  left: 6em;
+  bottom: 1em;
 }
 
 
@@ -96,6 +110,7 @@ footer {
   float: left;
   position: fixed;
 }
+/* associated with the "back" btn */
 #pfsection {
   padding: 2% 0;
 }
@@ -140,11 +155,11 @@ iframe {
 }
 .blog-title {
   font-size: 30px;
-  line-height: 100%;
 }
 .blog-meta {
   line-height: 30%;
 }
+
 
 /* blog content page */
 #blog-content {
