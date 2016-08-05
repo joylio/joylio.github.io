@@ -61,7 +61,7 @@ nav {
   text-decoration: line-through;
 }
 #content {
-  padding: 0 5em 0 25em;
+  padding-left: 25em;
 }
 
 /* footer */
@@ -75,18 +75,17 @@ footer {
 
 /* about page */
 #about {
-  display: inline-block;
-  padding: 10% 15%;
+  margin: 10% 15%;
 }
 
 
 /* portfolio page */
 #portfolio {
-  margin: 8%;
+  margin: 10%;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
-  margin: 0 6em 5em .5em;
+  margin: 0 3em 5em 3em;
   display: inline-block;
 }
 .demo-card-wide > .mdl-card__title {
@@ -104,17 +103,18 @@ footer {
 
 /* portfolio content page */
 #portfolio-content {
-  margin: 2% 8%;
+  margin: 3% 8%;
 }
 #back {
   float: left;
   position: fixed;
 }
-/* associated with the "back" btn */
+/* position relative to "back" btn */
 #pfsection {
-  padding: 2% 0;
+  padding-top: 5em;
 }
 .title {
+  font-size: 50px;
   text-align: center;
   text-decoration: underline;
 }
@@ -122,6 +122,7 @@ footer {
 
 /* individual portfolio page */
 .subtitle {
+  margin-top: 2em;
   text-align: center;
   font-style: italic;
 }
@@ -129,14 +130,15 @@ footer {
   width: auto;
   height: 400px;
   margin: 50px 0;
-  border: 2px black solid;
-  overflow: hidden;
+  overflow: auto;
+}
+.image-holder {
+  padding: 0 2em;
 }
 .image {
   display: inline-block;
-  padding: 0 55px;
+  margin: 0 3.5em;
 }
-/* set image size */
 .gallery .image img {
   width: 300px;
   height: 400px;
