@@ -7,7 +7,6 @@ kramdown:
 highlight: true
 baseurl: /joylio.github.io
 exclude: ['README.md']
-lsi: false
 
 # Build Settings
 permalink: pretty

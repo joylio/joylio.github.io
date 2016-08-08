@@ -5,7 +5,7 @@ html < body {
 a {
   color: grey;
 }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .a-title:hover, .blog-title:hover{
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a .viewmore:hover, .blog-title:hover, .nav-item a:hover{
   background-color: #e54444;
   color: #fff;
 }
@@ -49,10 +49,13 @@ header {
 .icon {
   margin-right: .5em;
 }
-nav {
+.nav-item {
+  display: block;
   text-align: center;
+  margin-bottom: 2em;
 }
-.nav_component {
+.nav-component {
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 .current {
@@ -75,35 +78,49 @@ footer {
 
 /* about page */
 #about {
-  margin: 10% 15%;
+  padding: 10% 15%;
+}
+#about h4 {
+  font-family: 'Open Sans', sans-serif;
 }
 
 
 /* portfolio page */
 #portfolio {
-  margin: 10%;
+  padding: 10%;
 }
 .demo-card-wide.mdl-card {
   width: 512px;
   margin: 0 3em 5em 3em;
   display: inline-block;
 }
+/* list of portfolio card background image */
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('../images/mushroom.png') center / cover;
 }
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
+#leafly {
+  background: url('../images/leaf.png') center / cover;
 }
 .mdl-card__title-text {
-  color: black;
+  color: white;
+}
+.material-icons.md-18 { 
+  font-size: 18px;
+}
+.tag {
+  font-size: 14px;
+}
+.viewmore {
+  text-transform: none;
+  float: right;
+  font-weight: bold;
 }
 
 
 /* portfolio content page */
 #portfolio-content {
-  margin: 3% 8%;
+  padding: 3% 8%;
 }
 #back {
   float: left;
@@ -114,6 +131,7 @@ footer {
   padding-top: 5em;
 }
 .title {
+  font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   text-align: center;
   text-decoration: underline;
@@ -122,13 +140,15 @@ footer {
 
 /* individual portfolio page */
 .subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   margin-top: 2em;
   text-align: center;
   font-style: italic;
 }
 .gallery {
   width: auto;
-  height: 400px;
+  height: 410px;
   margin: 50px 0;
   overflow: auto;
 }
@@ -143,11 +163,11 @@ footer {
   width: 300px;
   height: 400px;
 }
+.textbody {
+  font-family: 'Open Sans', sans-serif;
+}
 iframe {
-  margin-top: 5em;
-  margin-bottom: 5em;
-  width: 200px;
-  height: 200px;
+  
 }
 
 
