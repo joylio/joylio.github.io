@@ -19,7 +19,8 @@
 	<!-- Customized CSS, override css above-->
 	<link rel="stylesheet" href="{{site.baseurl}}/stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/stylesheets/syntax.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans|Roboto+Slab|Slabo+27px" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Bungee+Inline" rel="stylesheet">
+	
 	<!-- Set up favicon -->
 	<link rel="icon" type="img/ico" href="{{site.baseurl}}/images/portrait.jpg">
 	
@@ -46,13 +47,11 @@
 		
 		<nav>
 			<div class="nav-item"><a href="/index" class="nav-component {% if page.title == 'About'%}current{% endif %}">About</a></div>
-			<!-- Blog
+			<!--
 			<div class="nav-item"><a href="/blog" class="nav-component {% if page.title == 'Blog' or page.url contains 'blog' %}current{% endif %}">Blog</a></div>
 			-->
 			<div class="nav-item"><a href="/portfolio" class="nav-component {% if page.url contains 'portfolio' %}current{% endif %}">Portfolio</a></div>
-			<!-- Fun
-			<div class="nav-item"><a href="/fun" class="nav-component {% if page.title == 'Fun'%}current{% endif %}">Fun!</a></div>
-			-->
+			<div class="nav-item"><a href="/resume" class="nav-component {% if page.title == 'Resume'%}current{% endif %}">Resume</a></div>
 			<div class="nav-item"><a href="/contact" class="nav-component {% if page.title == 'Contact'%}current{% endif %}">Contact</a></div>
 		</nav>
 	</header>

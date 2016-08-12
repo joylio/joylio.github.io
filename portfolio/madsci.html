@@ -1,0 +1,32 @@
+---
+layout: portfolio-content
+title: Mad Science
+---
+
+<div class="subtitle">
+	- 2D educational serious game built with Unity
+</div>
+
+<div class="gallery">
+	<div class="image-holder">
+		<div class="image">
+			<img src="{{site.baseurl}}/images/">
+		</div>
+		<div class="image">
+			<img src="{{site.baseurl}}/images/">
+		</div>
+		<div class="image">
+			<img src="{{site.baseurl}}/images/">
+		</div>
+	</div>
+</div>
+
+<!--
+<iframe src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+-->
+
+
+<div class="textbody">
+	{% capture my_include %}{% include madsci_article.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+</div>
