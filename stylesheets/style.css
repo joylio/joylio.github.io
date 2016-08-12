@@ -1,89 +1,89 @@
 /* default common section */
 html < body {
-background-color: #ededed;
+  background-color: #ededed;
 }
 a {
   color: grey;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a .viewmore:hover, .blog-title:hover, .nav-item a:hover{
-background-color: #e54444;
-color: #fff;
+  background-color: #e54444;
+  color: #fff;
 }
 h4 {
-line-height: 1.5em;
+  line-height: 1.5em;
 }
 header {
-position: fixed;
-display: block;
-width: 17.5em;
-height: 100%;
-padding: 0 3.8em;
-top: 0;
-left: 0;
-border-right: 1px #eee solid;
-float: left;
-overflow-y: auto;
+  position: fixed;
+  display: block;
+  width: 17.5em;
+  height: 100%;
+  padding: 0 3.8em;
+  top: 0;
+  left: 0;
+  border-right: 1px #eee solid;
+  float: left;
+  overflow-y: auto;
 }
 #namecard {
-margin-top: 8em;
-margin-bottom: .5em;
+  margin-top: 8em;
+  margin-bottom: .5em;
 }
 #name {
-font-family: 'Bungee Inline', serif;
-font-size: 61px;
-line-height: 100%;
-text-align: center;
+  font-family: 'Bungee Inline', serif;
+  font-size: 61px;
+  line-height: 100%;
+  text-align: center;
 }
 #work {
-margin-top: .7em;
-font-family: 'Slabo 27px', serif;
-font-size: 20px;
-line-height: 110%;
-text-align: center;
+  margin-top: .7em;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  line-height: 110%;
+  text-align: center;
 }
 #social-icons {
-margin-top: 2em;
-margin-bottom: 6em;
-text-align: center;
+  margin-top: 2em;
+  margin-bottom: 6em;
+  text-align: center;
 }
 .icon {
-margin-right: .5em;
+  margin-right: .5em;
 }
 .nav-item {
-display: block;
-text-align: center;
-margin-bottom: 2em;
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
 }
 .nav-component {
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 .current {
-background-color: #e54444;
-color: #fff;
-text-decoration: line-through;
+  background-color: #e54444;
+  color: #fff;
+  text-decoration: line-through;
 }
 #content {
-padding-left: 25em;
+  padding-left: 25em;
 }
 
 
 /* footer */
 footer {
-left: 5em;
-bottom: 1em;
-font-family: 'Slabo 27px', sans-serif;
-font-size: 15px;
-position: fixed;
+  left: 5em;
+  bottom: 1em;
+  font-family: 'Slabo 27px', sans-serif;
+  font-size: 15px;
+  position: fixed;
 }
 
 
 /* about page */
 #about {
-padding: 10% 15%;
+  padding: 10% 15%;
 }
 #about h4 {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .highlight {
   color: black;
@@ -98,26 +98,29 @@ font-family: 'Open Sans', sans-serif;
 
 /* portfolio page */
 #portfolio {
-padding: 10%;
+  padding: 10%;
 }
 .demo-card-wide.mdl-card {
-width: 512px;
-margin: 0 3em 5em 3em;
-display: inline-block;
+  width: 512px;
+  margin: 0 3em 5em 3em;
+  display: inline-block;
 }
 .demo-card-wide > .mdl-card__title {
-color: #fff;
-height: 176px;
+  color: #fff;
+  height: 176px;
 }
 /* list of portfolio card background image */
 #madsci {
-background: url('../images/madsci.png') center / cover;
+  background: url('../images/madsci.png') center / cover;
 }
 #leafly {
-background: url('../images/leaf.PNG') center / cover;
+  background: url('../images/leaf.PNG') center / cover;
 }
 #colorrun {
-background: url('../images/colorrun.PNG') center / cover;
+  background: url('../images/colorrun.PNG') center / cover;
+}
+#sound {
+
 }
 #heatman {
 
@@ -125,107 +128,111 @@ background: url('../images/colorrun.PNG') center / cover;
 #leftalive {
 
 }
-
+/* end card bg img */
 .mdl-card__title-text {
-color: white;
-font-weight: bold;
+  color: white;
+  font-weight: bold;
 }
 .material-icons.md-18 { 
-font-size: 18px;
+  font-size: 18px;
 }
 .tag {
-font-size: 14px;
+  font-size: 14px;
 }
 .viewmore {
-text-transform: none;
-float: right;
-font-weight: bold;
+  text-transform: none;
+  float: right;
+  font-weight: bold;
 }
 
 
 /* portfolio content page */
 #portfolio-content {
-padding: 3% 8%;
+  padding: 3% 8%;
 }
 #back {
-float: left;
-position: fixed;
+  float: left;
 }
 /* position relative to "back" btn */
 #pfsection {
-padding-top: 5em;
+  padding-top: 5em;
 }
 .title {
-font-family: 'Open Sans', sans-serif;
-font-size: 50px;
-line-height: 100%;
-text-align: center;
-text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  text-align: center;
+  font-weight: bold;
 }
 
 
 /* individual portfolio page */
 .subtitle {
-font-family: 'Open Sans', sans-serif;
-font-size: 20px;
-margin-top: 1em;
-text-align: center;
-font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 1em;
+  text-align: center;
+  font-style: italic;
 }
 .gallery {
-width: auto;
-height: 410px;
-margin: 50px 0;
-overflow: auto;
+  width: auto;
+  height: 410px;
+  margin: 50px 0;
+  overflow: auto;
 }
 .image-holder {
-padding: 0 2em;
+  padding: 0 2em;
 }
 .image {
-display: inline-block;
-margin: 0 3.5em;
+  display: inline-block;
+  margin: 0 3.5em;
 }
 .gallery .image img {
-width: 300px;
-height: 400px;
+  width: 300px;
+  height: 400px;
 }
 .textbody {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 4em;
+}
+iframe {
+  width: 400px;
+  height: 315px;
 }
 
 
 /* resume page */
 #resume {
-padding: 5% 10%;
+  padding: 5% 10%;
 }
 #resume > h4 {
-text-align: center;
+  text-align: center;
 }
 
 
 /* contact page */
 #contact {
-padding: 10% 15%;
+  padding: 10% 15%;
 }
 #contact > h4 {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
 
 /* blog page */
 #blog {
-margin: 8%;
+  margin: 8%;
 }
 .blog-title {
-font-size: 30px;
+  font-size: 30px;
 }
 .blog-meta {
-line-height: 30%;
+  line-height: 30%;
 }
 
 
 /* blog content page */
 #blog-content {
-margin: 5% 8%;
+  margin: 5% 8%;
 }
