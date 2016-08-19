@@ -1,1 +1,13 @@
-<iframe src="https://www.youtube.com/embed/qEjMy-M0TBU" frameborder="0" allowfullscreen></iframe>
+---
+layout: portfolio-content
+title: Sound of Silence
+---
+
+<div class="subtitle">
+	- narrative game with four levels
+</div>
+
+<div class="textbody">
+	{% capture my_include %}{% include soundofsilence_article.md %}{% endcapture %}
+	{{ my_include | markdownify }}
+</div>

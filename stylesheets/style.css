@@ -120,13 +120,13 @@ footer {
   background: url('../images/colorrun.PNG') center / cover;
 }
 #sound {
-
+  background: url('../images/soundofsilence.PNG') center / cover;
 }
 #heatman {
   background: url('../images/heatman.PNG') center / cover;
 }
 #leftalive {
-
+  background: url('../images/leftalive.PNG') center / cover;
 }
 /* end card bg img */
 .mdl-card__title-text {
@@ -155,7 +155,7 @@ footer {
 }
 /* position relative to "back" btn */
 #pfsection {
-  padding-top: 5em;
+  padding: 5em 0;
 }
 .title {
   font-family: 'Open Sans', sans-serif;
