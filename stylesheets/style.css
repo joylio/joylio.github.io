@@ -204,10 +204,34 @@ iframe {
 /* resume page */
 #resume {
   padding: 5% 10%;
-}
-#resume > h4 {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+.container {
+  margin-bottom: 3em;
+}
+.headline {
+  font-weight: bold;
+}
+.item {
+  margin-bottom: 2.5em;
+}
+p.school {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80%;
+}
+p.duration {
+  font-size: 17px;
+  font-style: italic;
+  line-height: 80%;
+}
+p.degree {
+  font-size: 17px;
+  line-height: 80%;
+}
+p.skill-item {
+  font-size: 17px;
+  line-height: 80%;
 }
 
 
