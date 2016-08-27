@@ -185,10 +185,10 @@ footer {
 }
 .image {
   display: inline-block;
-  margin: 0 3.5em;
+  margin: 0.5em 2em;
 }
 .gallery .image img {
-  width: 300px;
+  width: 400px;
   height: 400px;
 }
 .textbody {
@@ -248,16 +248,28 @@ p.skill-item {
 /* blog page */
 #blog {
   margin: 8%;
+  font-family: 'Open Sans', sans-serif;
+}
+#blog-list {
+  margin-bottom: 3em;
 }
 .blog-title {
   font-size: 30px;
 }
 .blog-meta {
   line-height: 30%;
+  font-style: italic;
 }
 
 
 /* blog content page */
 #blog-content {
-  margin: 5% 8%;
+  margin: 6% 8%;
+}
+.title-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  line-height: 200%;
+  text-align: center;
+  font-weight: bold;
 }

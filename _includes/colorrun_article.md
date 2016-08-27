@@ -14,7 +14,7 @@
 
 #### __Project Description__
 
-#### The game is basically a runner game, where players are able to change Cube A\'s color with controls, while game over scenario would be that Cube A running into another cube with a different color, so players need to constantly change Cube A\'s color to match with the color of the cubes that it is about to hit.
+#### The game is basically a runner game, where the frequency of appearance and colors of barricades (cubes) can be predefined by players in the inspector, and players are able to change the running Cube A\'s color with controls. The game over scenario would be that Cube A running into another cube with a different color, so players need to constantly change Cube A\'s color to match with the color of the cubes that it is about to hit.
 
 #### The game includes a level editor in the Inspector area for players to adjust the gameplay difficulties in the following aspects:
 
