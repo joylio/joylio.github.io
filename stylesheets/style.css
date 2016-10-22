@@ -244,6 +244,14 @@ p.skill-item {
 }
 
 
+/* blog layout */
+#tag-box {
+  border-style: dashed;
+  width: auto;
+  height: 15em;
+  margin: 8em auto;
+}
+
 
 /* blog page */
 #blog {
