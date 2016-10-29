@@ -1,4 +1,4 @@
-#### - __Project__: Leafly
+#### - __Project__: LeafVR
 
 #### - __Team Development Time__: 2 Weeks
 
