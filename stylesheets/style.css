@@ -114,19 +114,19 @@ footer {
   background: url('../images/madsci1.png') center / cover;
 }
 #leafVR {
-  background: url('../images/leaf1.PNG') center / cover;
+  background: url('../images/leaf1.png') center / cover;
 }
 #colorrun {
-  background: url('../images/color1.PNG') center / cover;
+  background: url('../images/color1.png') center / cover;
 }
 #sound {
-  background: url('../images/soundofsilence1.PNG') center / cover;
+  background: url('../images/soundofsilence1.png') center / cover;
 }
 #heatman {
-  background: url('../images/heatman1.PNG') center / cover;
+  background: url('../images/heatman1.png') center / cover;
 }
 #leftalive {
-  background: url('../images/leftalive1.PNG') center / cover;
+  background: url('../images/leftalive1.png') center / cover;
 }
 /* end card bg img */
 .mdl-card__title-text {
