@@ -38,16 +38,16 @@ var imgArr = {
 }
 
 var count = 0;
-var image = imgArr[document.title];
+var i = imgArr[document.title];
 
 function ToggleImage() {
 	$(".gallery img").fadeOut(200, function() {
 		count++;
-		$(".gallery img").attr("src", image[count % image.length]).fadeIn(200);
+		$(".gallery img").attr("src", i[count % i.length]).fadeIn(200);
 	});
 }
 
 $(document).ready(function() {
-	if (image.length > 1)
+	if (i.length > 1)
 		setInterval('ToggleImage()', 3000);
 });
