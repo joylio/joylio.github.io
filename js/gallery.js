@@ -1,36 +1,39 @@
+---
+---
+
 var imgArr = {
 	"LeafVR | Jiayu Liu": [
-		"/images/leaf1.png",
-		"/images/leaf2.png",
-		"/images/leaf3.png",
-		"/images/leaf4.png"
+		"{{site.baseurl}}/images/leaf1.png",
+		"{{site.baseurl}}/images/leaf2.png",
+		"{{site.baseurl}}/images/leaf3.png",
+		"{{site.baseurl}}/images/leaf4.png"
 	],
 
 	"Color Run | Jiayu Liu": [
-		"/images/color1.png",
-		"/images/color2.png",
-		"/images/color3.png"
+		"{{site.baseurl}}/images/color1.png",
+		"{{site.baseurl}}/images/color2.png",
+		"{{site.baseurl}}/images/color3.png"
 	],
 
 	"Sound of Silence | Jiayu Liu": [
-		"/images/soundofsilence1.png"
+		"{{site.baseurl}}/images/soundofsilence1.png"
 	],
 
 	"Heat Man | Jiayu Liu": [
-		"/images/heatman1.png",
-		"/images/heatman2.png",
-		"/images/heatman3.png",
-		"/images/heatman4.png",
-		"/images/heatman5.png",
-		"/images/heatman6.png",
-		"/images/heatman7.png",
-		"/images/heatman8.png",
-		"/images/heatman9.png",
-		"/images/heatman10.png"
+		"{{site.baseurl}}/images/heatman1.png",
+		"{{site.baseurl}}/images/heatman2.png",
+		"{{site.baseurl}}/images/heatman3.png",
+		"{{site.baseurl}}/images/heatman4.png",
+		"{{site.baseurl}}/images/heatman5.png",
+		"{{site.baseurl}}/images/heatman6.png",
+		"{{site.baseurl}}/images/heatman7.png",
+		"{{site.baseurl}}/images/heatman8.png",
+		"{{site.baseurl}}/images/heatman9.png",
+		"{{site.baseurl}}/images/heatman10.png"
 	],
 
 	"Left Alive | Jiayu Liu": [
-		"/images/leftalive1.png"
+		"{{site.baseurl}}/images/leftalive1.png"
 	]
 }
 

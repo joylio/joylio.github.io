@@ -1,3 +1,6 @@
+---
+---
+
 /* default common section */
 html < body {
   background-color: #ededed;
@@ -111,22 +114,22 @@ footer {
 }
 /* list of portfolio card background image */
 #madsci {
-  background: url('../images/madsci1.png') center / cover;
+  background: url('{{site.baseurl}}/images/madsci1.png') center / cover;
 }
 #leafVR {
-  background: url('../images/leaf1.png') center / cover;
+  background: url('{{site.baseurl}}/images/leaf1.png') center / cover;
 }
 #colorrun {
-  background: url('../images/color1.png') center / cover;
+  background: url('{{site.baseurl}}/images/color1.png') center / cover;
 }
 #sound {
-  background: url('../images/soundofsilence1.png') center / cover;
+  background: url('{{site.baseurl}}/images/soundofsilence1.png') center / cover;
 }
 #heatman {
-  background: url('../images/heatman1.png') center / cover;
+  background: url('{{site.baseurl}}/images/heatman1.png') center / cover;
 }
 #leftalive {
-  background: url('../images/leftalive1.png') center / cover;
+  background: url('{{site.baseurl}}/images/leftalive1.png') center / cover;
 }
 /* end card bg img */
 .mdl-card__title-text {
