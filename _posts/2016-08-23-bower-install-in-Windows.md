@@ -1,8 +1,8 @@
 ---
 layout: blog-content
 title: bower install in Windows
-meta: Problem with installing bower in Windows command prompt
-category: blog
+meta: Problem with npm/bower install in Windows console/terminal
+category: FrontEnd, OS
 ---
 
-#### When installing node.js in my Windows 8, 
+#### When I tried to use cmd 
