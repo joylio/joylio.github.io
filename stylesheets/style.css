@@ -223,6 +223,10 @@ p.degree {
   font-size: 17px;
   line-height: 80%;
 }
+p.course {
+  font-size: 17px;
+  line-height: 150%;
+}
 p.skill-item {
   font-size: 17px;
   line-height: 80%;
