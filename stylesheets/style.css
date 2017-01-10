@@ -109,8 +109,12 @@ footer {
   display: inline-block;
 }
 .demo-card-wide > .mdl-card__title {
-  color: #fff;
   height: 176px;
+}
+#card-title {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
 }
 /* list of portfolio card background image */
 #madsci {
@@ -141,11 +145,6 @@ footer {
 }
 .tag {
   font-size: 14px;
-}
-.viewmore {
-  text-transform: none;
-  float: right;
-  font-weight: bold;
 }
 
 
