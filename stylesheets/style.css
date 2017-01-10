@@ -210,25 +210,25 @@ footer {
   margin-bottom: 2.5em;
 }
 p.school {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 80%;
 }
 p.duration {
-  font-size: 17px;
+  font-size: 20px;
   font-style: italic;
   line-height: 80%;
 }
 p.degree {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 80%;
 }
 p.course {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 150%;
 }
 p.skill-item {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 80%;
 }
 
