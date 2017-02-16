@@ -73,7 +73,7 @@ header {
 
 /* footer */
 footer {
-  left: 5em;
+  left: 4em;
   bottom: 1em;
   font-family: 'Slabo 27px', sans-serif;
   font-size: 15px;
@@ -202,33 +202,31 @@ footer {
 .container {
   margin-bottom: 3em;
 }
+.item {
+  margin: 30px 0;
+}
 .headline {
+  margin-top: 30px;
   font-weight: bold;
 }
-.item {
+.content {
   margin-bottom: 2.5em;
 }
-p.school {
-  font-size: 25px;
+.content p {
+  font-size: 20px;
+}
+p.name {
   font-weight: bold;
-  line-height: 80%;
 }
-p.duration {
-  font-size: 20px;
-  font-style: italic;
-  line-height: 80%;
+span.time {
+  float: right;
+  font-style:italic;
 }
-p.degree {
-  font-size: 20px;
-  line-height: 80%;
+p.description {
+  margin-top: -10px;
 }
-p.course {
-  font-size: 20px;
-  line-height: 150%;
-}
-p.skill-item {
-  font-size: 20px;
-  line-height: 80%;
+p.school {
+  font-weight: bold;
 }
 
 
