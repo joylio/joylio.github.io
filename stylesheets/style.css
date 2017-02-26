@@ -188,6 +188,11 @@ footer {
   height: 400px;
   width: 600px;  
 }
+.video {
+  width: 600px;
+  height: 400px;
+  margin: 3em auto 0 auto;
+}
 .textbody {
   font-family: 'Open Sans', sans-serif;
   margin-top: 4em;
