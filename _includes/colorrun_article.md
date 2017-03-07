@@ -10,7 +10,7 @@
 
 #### - Trigger point attached to each cube to make the color change take effect, i.e. the closer to the cube, the harder the gameplay would be.
 
-#### __Development Time__: 20 Hours (individual)
+#### __Development Time__: 20 Hours (sole developer)
 
 #### __Language__: C\#
 
