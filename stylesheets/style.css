@@ -232,6 +232,7 @@ p.description {
 }
 p.school {
   font-weight: bold;
+  margin-top: -10px;
 }
 
 
