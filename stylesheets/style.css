@@ -32,14 +32,14 @@ header {
   margin-bottom: .5em;
 }
 #name {
-  font-family: 'Bungee Inline', serif;
+  font-family: 'Rock Salt', cursive;
   font-size: 61px;
   line-height: 100%;
   text-align: center;
 }
 #work {
   margin-top: .7em;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Walter Turncoat', serif;
   font-size: 20px;
   line-height: 110%;
   text-align: center;
@@ -59,12 +59,13 @@ header {
 }
 .nav-component {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 .current {
   background-color: #e54444;
   color: #fff;
-  text-decoration: line-through;
+  text-decoration: none;
+  font-weight: bold;
 }
 #content {
   padding-left: 25em;
@@ -73,7 +74,7 @@ header {
 
 /* footer */
 footer {
-  left: 4em;
+  left: 7em;
   bottom: 1em;
   font-family: 'Slabo 27px', sans-serif;
   font-size: 15px;
