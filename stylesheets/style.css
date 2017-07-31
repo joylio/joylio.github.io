@@ -18,7 +18,7 @@ h4 {
 header {
   position: fixed;
   display: block;
-  width: 17.5em;
+  width: 20em;
   height: 100%;
   padding: 0 3.8em;
   top: 0;
@@ -74,7 +74,7 @@ header {
 
 /* footer */
 footer {
-  left: 7em;
+  left: 8.5em;
   bottom: 1em;
   font-family: 'Slabo 27px', sans-serif;
   font-size: 15px;
