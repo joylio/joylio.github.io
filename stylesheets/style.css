@@ -37,6 +37,14 @@ header {
   line-height: 100%;
   text-align: center;
 }
+.fill {
+  fill: #fff;
+}
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 20px;
+}
 #work {
   margin-top: .7em;
   font-family: 'Walter Turncoat', serif;
@@ -102,8 +110,68 @@ footer {
 
 /* portfolio page */
 #portfolio {
-  padding: 10%;
+  margin: 8% 4% 6% 8%;
 }
+.portfolio-entry {
+  width: 40%;
+  display: inline-block;
+  padding: 0 4.5% 6% 4.5%;
+}
+.portfolio-entry-bg {
+  background-color: gray;
+  height: auto;
+  width: 100%;
+}
+.portfolio-entry-content {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.portfolio-entry-content:hover {
+  /* Safari, earlier Chrome and Opera */
+  -webkit-transform: translateX(2%) translateY(-1%) scale(1);
+  -webkit-transition: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  /* MS */
+  -ms-transform: translateX(2%) translateY(-1%) scale(1);
+  -ms-transition: 0.2s;
+  -ms-transition-timing-function: ease-out;
+  /* Firefox */
+  -moz-transform: translateX(2%) translateY(-1%) scale(1);
+  -moz-transition: 0.2s;
+  -moz-transition-timing-function: ease-out;
+
+  transform: translateX(2%) translateY(-1%) scale(1); 
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+}
+.portfolio-entry-content-img {
+  background-color: #eff2f5;
+  height: 450px;
+}
+.portfolio-entry-content-img img {
+  height: 100%;
+  width: auto;
+}
+.portfolio-entry-content-description {
+  background-color: #fff;
+  padding: 15px 20px;
+}
+.portfolio-entry-content-description a {
+  color: #777;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Saira Semi Condensed", sans-serif;
+  text-decoration: none;
+}
+.portfolio-entry-content-description p {
+  margin-top: 0.2em;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: "Slabo 27px", sans-serif;
+}
+
+/* legacy */
 .demo-card-wide.mdl-card {
   width: 512px;
   margin: 0 3em 5em 3em;
