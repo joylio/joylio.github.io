@@ -1,6 +1,9 @@
 ---
 ---
 
+/* external fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px|Bungee+Inline|Rock+Salt|Walter+Turncoat|Saira+Semi+Condensed");
+
 /* default common section */
 html < body {
   background-color: #ededed;
