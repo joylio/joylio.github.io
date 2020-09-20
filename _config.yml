@@ -5,7 +5,7 @@ kramdown:
   hard_wrap: false
   highlighter: rouge
 highlight: true
-baseurl: /joylio.github.io
+baseurl:
 exclude: ['README.md']
 
 # Build Settings
